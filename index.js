@@ -4,7 +4,26 @@
 
 // let character = 'Hello';
 
+// -----------------------------------------------------------------
+
 // Консоль позволяет вам печатать и просматривать вывод JavaScript. Вы можете отправлять информацию на консоль с помощью console.log(). Например, этот код выведет на консоль "Naomi": Пример кода let developer = "Naomi"; console.log(developer); Приведенный выше код обращается к переменной developer по ее имени в console.log(). Обратите внимание, что значение в скобках — это значение, которое будет выведено. Выведите значение символьной переменной на консоль. Затем нажмите кнопку "Console", чтобы просмотреть консоль JavaScript.
 
 // let character = 'Hello';
 // console.log(character)
+
+// -----------------------------------------------------------------
+
+// Step 6
+// When a variable is declared with the let keyword, you can reassign (or change the value of) that variable later on. In this example, the value of programmer is changed from "Naomi" to "CamperChan".
+
+// Example Code
+// let programmer = "Naomi";
+// programmer = "CamperChan";
+// Note that when reassigning a variable, you do not use the let keyword again.
+
+// After your console.log, assign the value "World" to your character variable.
+
+// let character = 'Hello';
+// character = 'World';
+
+// -----------------------------------------------------------------
