@@ -31,7 +31,16 @@
 
 // Шаг 7 Теперь снова выведите переменную вашего символа на консоль. Вы должны увидеть строку "Hello", а затем строку "World" в консоли.
 
-let character = 'Hello';
-console.log(character);
-character = "World";
-console.log(character);
+// let character = 'Hello';
+// console.log(character);
+// character = "World";
+// console.log(character);
+
+// -----------------------------------------------------------------
+
+// Шаг 8 Когда имена переменных состоят из более чем одного слова, существуют особые соглашения об именах для того, как вы пишете слова с заглавной буквы. В JavaScript соглашением является использование camel case. Camel case означает, что первое слово в имени полностью строчное, но все последующие слова пишутся с заглавной буквы. Вот несколько примеров camel case: Пример кода let variableOne; let secondVariable; let yetAnotherVariable; let thisIsAnAbsurdlyLongName; Используйте camel case для объявления новой переменной secondCharacter.
+
+// let secondCharacter;
+
+// -----------------------------------------------------------------
+
