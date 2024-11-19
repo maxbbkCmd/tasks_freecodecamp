@@ -127,7 +127,13 @@
 
 // Do not remove your character variable.
 
-
 // let character = "Hello";
 
 // ----------------------------------------------------------------
+
+// Step 15
+// Use let to declare a count variable. Assign it the number 8. When using a number value, you do not use quotes. For example:
+
+// Example Code 
+// let money = 100;
+
