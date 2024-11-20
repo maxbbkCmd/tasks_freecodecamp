@@ -1,139 +1,139 @@
 
-398 / 5 000
-Шаг 4. JavaScript имеет семь примитивных типов данных, одним из которых является String. В JavaScript строка представляет собой последовательность символов и может быть заключена в одинарные (') или двойные (") кавычки. Обратите внимание, что строки являются неизменяемыми, что означает, что после создания они не могут быть изменены. Переменной по-прежнему можно присвоить другое значение. Измените строку "Hello", чтобы использовать одинарные кавычки.
+// 398 / 5 000
+// Шаг 4. JavaScript имеет семь примитивных типов данных, одним из которых является String. В JavaScript строка представляет собой последовательность символов и может быть заключена в одинарные (') или двойные (") кавычки. Обратите внимание, что строки являются неизменяемыми, что означает, что после создания они не могут быть изменены. Переменной по-прежнему можно присвоить другое значение. Измените строку "Hello", чтобы использовать одинарные кавычки.
 
-let character = 'Hello';
+// let character = 'Hello';
 
------------------------------------------------------------------
+// -----------------------------------------------------------------
 
-Консоль позволяет вам печатать и просматривать вывод JavaScript. Вы можете отправлять информацию на консоль с помощью console.log(). Например, этот код выведет на консоль "Naomi": Пример кода let developer = "Naomi"; console.log(developer); Приведенный выше код обращается к переменной developer по ее имени в console.log(). Обратите внимание, что значение в скобках — это значение, которое будет выведено. Выведите значение символьной переменной на консоль. Затем нажмите кнопку "Console", чтобы просмотреть консоль JavaScript.
+// Консоль позволяет вам печатать и просматривать вывод JavaScript. Вы можете отправлять информацию на консоль с помощью console.log(). Например, этот код выведет на консоль "Naomi": Пример кода let developer = "Naomi"; console.log(developer); Приведенный выше код обращается к переменной developer по ее имени в console.log(). Обратите внимание, что значение в скобках — это значение, которое будет выведено. Выведите значение символьной переменной на консоль. Затем нажмите кнопку "Console", чтобы просмотреть консоль JavaScript.
 
-let character = 'Hello';
-console.log(character)
+// let character = 'Hello';
+// console.log(character)
 
------------------------------------------------------------------
+// -----------------------------------------------------------------
 
-Step 6
-When a variable is declared with the let keyword, you can reassign (or change the value of) that variable later on. In this example, the value of programmer is changed from "Naomi" to "CamperChan".
+// Step 6
+// When a variable is declared with the let keyword, you can reassign (or change the value of) that variable later on. In this example, the value of programmer is changed from "Naomi" to "CamperChan".
 
-Example Code
-let programmer = "Naomi";
-programmer = "CamperChan";
-Note that when reassigning a variable, you do not use the let keyword again.
+// Example Code
+// let programmer = "Naomi";
+// programmer = "CamperChan";
+// Note that when reassigning a variable, you do not use the let keyword again.
 
-After your console.log, assign the value "World" to your character variable.
+// After your console.log, assign the value "World" to your character variable.
 
-let character = 'Hello';
-console.log(character);
-character = 'World';
+// let character = 'Hello';
+// console.log(character);
+// character = 'World';
 
------------------------------------------------------------------
+// -----------------------------------------------------------------
 
-Шаг 7 Теперь снова выведите переменную вашего символа на консоль. Вы должны увидеть строку "Hello", а затем строку "World" в консоли.
+// Шаг 7 Теперь снова выведите переменную вашего символа на консоль. Вы должны увидеть строку "Hello", а затем строку "World" в консоли.
 
-let character = 'Hello';
-console.log(character);
-character = "World";
-console.log(character);
+// let character = 'Hello';
+// console.log(character);
+// character = "World";
+// console.log(character);
 
------------------------------------------------------------------
+// -----------------------------------------------------------------
 
-Шаг 8 Когда имена переменных состоят из более чем одного слова, существуют особые соглашения об именах для того, как вы пишете слова с заглавной буквы. В JavaScript соглашением является использование camel case. Camel case означает, что первое слово в имени полностью строчное, но все последующие слова пишутся с заглавной буквы. Вот несколько примеров camel case: Пример кода let variableOne; let secondVariable; let yetAnotherVariable; let thisIsAnAbsurdlyLongName; Используйте camel case для объявления новой переменной secondCharacter.
+// Шаг 8 Когда имена переменных состоят из более чем одного слова, существуют особые соглашения об именах для того, как вы пишете слова с заглавной буквы. В JavaScript соглашением является использование camel case. Camel case означает, что первое слово в имени полностью строчное, но все последующие слова пишутся с заглавной буквы. Вот несколько примеров camel case: Пример кода let variableOne; let secondVariable; let yetAnotherVariable; let thisIsAnAbsurdlyLongName; Используйте camel case для объявления новой переменной secondCharacter.
 
-let secondCharacter;
+// let secondCharacter;
 
------------------------------------------------------------------
+// -----------------------------------------------------------------
 
-Step 9
-When you declare a variable without initializing it, it is considered uninitialized. Currently, your secondCharacter variable is uninitialized.
+// Step 9
+// When you declare a variable without initializing it, it is considered uninitialized. Currently, your secondCharacter variable is uninitialized.
 
-Add a console.log() to see what the value of your secondCharacter variable is.
+// Add a console.log() to see what the value of your secondCharacter variable is.
 
-let character = 'Hello';
-console.log(character);
-character = "World";
-let secondCharacter;
-console.log(secondCharacter);
+// let character = 'Hello';
+// console.log(character);
+// character = "World";
+// let secondCharacter;
+// console.log(secondCharacter);
 
------------------------------------------------------------------
+// -----------------------------------------------------------------
 
-The default value of an uninitialized variable is undefined. This is a special data type that represents a value that does not have a definition yet.
+// The default value of an uninitialized variable is undefined. This is a special data type that represents a value that does not have a definition yet.
 
-You can still assign a value to an uninitialized variable. Here is an example:
+// You can still assign a value to an uninitialized variable. Here is an example:
 
-Example Code
-let uninitialized;
-uninitialized = "assigned";
-Assign the string "Test" to your secondCharacter variable below your declaration. Open the console to see how your log has changed.
+// Example Code
+// let uninitialized;
+// uninitialized = "assigned";
+// Assign the string "Test" to your secondCharacter variable below your declaration. Open the console to see how your log has changed.
 
-let character = 'Hello';
-console.log(character);
-character = "World";
-let secondCharacter;
+// let character = 'Hello';
+// console.log(character);
+// character = "World";
+// let secondCharacter;
 
-console.log(secondCharacter);
-secondCharacter = 'Test';
-console.log(secondCharacter);
+// console.log(secondCharacter);
+// secondCharacter = 'Test';
+// console.log(secondCharacter);
 
------------------------------------------------------------------
+// -----------------------------------------------------------------
 
-Step 11
-You can also assign the value of a variable to another variable. For example:
+// Step 11
+// You can also assign the value of a variable to another variable. For example:
 
-Example Code
-let first = "One";
-let second = "Two";
-second = first;
-The second variable would now have the value "One".
+// Example Code
+// let first = "One";
+// let second = "Two";
+// second = first;
+// The second variable would now have the value "One".
 
-To see this in action, change your secondCharacter assignment from "Test" to your character variable.
+// To see this in action, change your secondCharacter assignment from "Test" to your character variable.
 
-Then open the console to see what gets logged.
+// Then open the console to see what gets logged.
 
-let character = 'Hello';
-console.log(character);
-character = "World";
-let secondCharacter;
-secondCharacter = "Test";
-secondCharacter = character;
+// let character = 'Hello';
+// console.log(character);
+// character = "World";
+// let secondCharacter;
+// secondCharacter = "Test";
+// secondCharacter = character;
 
-------------------------------------------------------------------
+// ------------------------------------------------------------------
 
-Step 12
-You are now ready to declare your next variable. Remove both console.log statements, and the character reassignment.
+// Step 12
+// You are now ready to declare your next variable. Remove both console.log statements, and the character reassignment.
 
-Also remove your secondCharacter variable, but leave the character initialization unchanged.
+// Also remove your secondCharacter variable, but leave the character initialization unchanged.
 
-let character = 'Hello';
+// let character = 'Hello';
 
-----------------------------------------------------------------
+// ----------------------------------------------------------------
 
-Step 13
-Before moving forward, you should take a moment to review the concepts you have learned.
+// Step 13
+// Before moving forward, you should take a moment to review the concepts you have learned.
 
-Use the let keyword to declare a profession variable and an age variable. Initialize profession with the string "teacher", but do not initialize age with any value.
+// Use the let keyword to declare a profession variable and an age variable. Initialize profession with the string "teacher", but do not initialize age with any value.
 
-Log both of your variables to the console to see the results.
+// Log both of your variables to the console to see the results.
 
-let profession = 'teacher';
-let age;
-console.log(profession);
-console.log(age);
+// let profession = 'teacher';
+// let age;
+// console.log(profession);
+// console.log(age);
 
-----------------------------------------------------------------
+// ----------------------------------------------------------------
 
-Step 14
-Now that you have reviewed declaration and initialization, remove the code you wrote for your review.
+// Step 14
+// Now that you have reviewed declaration and initialization, remove the code you wrote for your review.
 
-Do not remove your character variable.
+// Do not remove your character variable.
 
-let character = "Hello";
+// let character = "Hello";
 
-----------------------------------------------------------------
+// ----------------------------------------------------------------
 
-Step 15
-Use let to declare a count variable. Assign it the number 8. When using a number value, you do not use quotes. For example:
+// Step 15
+// Use let to declare a count variable. Assign it the number 8. When using a number value, you do not use quotes. For example:
 
-Example Code 
-let money = 100;
+// Example Code 
+// let money = 100;
 
