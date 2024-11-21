@@ -362,35 +362,37 @@ for (let i = 0; i < count; i = i + 1) {
 
 // ----------------------------------------------------------------
 
-const character = "#";
-const count = 8;
-const rows = [];
+// const character = "#";
+// const count = 8;
+// const rows = [];
 
-function padRow(rowNumber, rowCount) {
-  return " " + character.repeat(rowNumber) + " ";
-}
+// function padRow(rowNumber, rowCount) {
+//   return " " + character.repeat(rowNumber) + " ";
+// }
 
-for (let i = 0; i < count; i = i + 1) {
-  rows.push(padRow(i + 1, count));
-}
+// for (let i = 0; i < count; i = i + 1) {
+//   rows.push(padRow(i + 1, count));
+// }
 
-let result = ""
+// let result = ""
 
-for (const row of rows) {
-  result = result + row + "\n";
-}
+// for (const row of rows) {
+//   result = result + row + "\n";
+// }
 
-console.log(result);
+// console.log(result);
+
+// // ----------------------------------------------------------------
+
+// function padRow(rowNumber, rowCount) {
+//   return (" ").repeat(rowCount) + character.repeat(rowNumber) + (" ").repeat(rowCount);
+// }
 
 // ----------------------------------------------------------------
 
 function padRow(rowNumber, rowCount) {
-  return (" ").repeat(rowCount) + character.repeat(rowNumber) + (" ").repeat(rowCount);
+  return " ".repeat(rowCount - rowNumber) + character.repeat(rowNumber) + " ".repeat(rowCount - rowNumber);
 }
-
-// ----------------------------------------------------------------
-
-
 
 // ----------------------------------------------------------------
 
