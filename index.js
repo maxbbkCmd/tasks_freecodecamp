@@ -343,13 +343,16 @@ function padRow(rowNumber, rowCount ) {
 
 // ----------------------------------------------------------------
 
-unction padRow(rowNumber, rowCount) {
+function padRow(rowNumber, rowCount) {
   return character.repeat(rowNumber);
-}
+} 
+
 
 // ----------------------------------------------------------------
 
-
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(padRow())
+}
 
 // ----------------------------------------------------------------
 
