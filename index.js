@@ -343,7 +343,9 @@ function padRow(rowNumber, rowCount ) {
 
 // ----------------------------------------------------------------
 
-
+unction padRow(rowNumber, rowCount) {
+  return character.repeat(rowNumber);
+}
 
 // ----------------------------------------------------------------
 
