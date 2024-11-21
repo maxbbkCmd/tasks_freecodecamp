@@ -384,7 +384,9 @@ console.log(result);
 
 // ----------------------------------------------------------------
 
-
+function padRow(rowNumber, rowCount) {
+  return (" ").repeat(rowCount) + character.repeat(rowNumber) + (" ").repeat(rowCount);
+}
 
 // ----------------------------------------------------------------
 
