@@ -488,7 +488,11 @@ let continueLoop = false;
 let done = 0;
 // ----------------------------------------------------------------
 
-
+let continueLoop = false;
+let done = 0;
+while (continueLoop ) {
+  done
+}
 
 // ----------------------------------------------------------------
 
