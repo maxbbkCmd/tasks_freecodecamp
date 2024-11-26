@@ -23,3 +23,9 @@ const darkColorsArr = [
   "#2C3E50",
   "#800020",
 ];
+
+// 💛 A ReferenceError is thrown when a non-existent variable is referenced. In this case, it looks like CamperBot is trying to use math but JavaScript doesn't have a math object.
+
+// Fix CamperBot's error in the math.random() line and open up the console again.
+
+console.log(darkColorsArr.length * Math.random())
