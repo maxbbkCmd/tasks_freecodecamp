@@ -10,3 +10,8 @@
 <label for="budget">Budget</label>
 <input id="budget" type="number" min="0" placeholder ="Daily calorie budget" required/>
 </form> */}
+
+{/* <fieldset id="breakfast">
+  <legend>Breakfast</legend>
+  <div class="input-container"></div>
+</fieldset> */}
