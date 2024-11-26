@@ -5,3 +5,8 @@
 <label for="budget">Budget</label>
 <input id="budget"></input>
 </form> */}
+
+{/* <form id="calorie-counter">
+<label for="budget">Budget</label>
+<input id="budget" type="number" min="0" placeholder ="Daily calorie budget" required/>
+</form> */}
