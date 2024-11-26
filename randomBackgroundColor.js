@@ -37,3 +37,10 @@ function getRandomIndex() {
   console.log(Math.floor(Math.random() * darkColorsArr.length ))
 }
 getRandomIndex();
+
+// 💛 TypeError означает, что код пытается выполнить операцию со значением, тип которого не соответствует ожидаемому. Исправьте TypeError, обновив метод document.queryselector до правильного имени метода, который выбирает элемент из DOM.
+
+const body = document.querySelector("body");
+const bgHexCodeSpanElement = document.querySelector("bg-hex-code");
+
+console.log(bgHexCodeSpanElement);
