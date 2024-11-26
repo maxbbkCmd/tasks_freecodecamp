@@ -29,3 +29,11 @@ const darkColorsArr = [
 // Fix CamperBot's error in the math.random() line and open up the console again.
 
 console.log(darkColorsArr.length * Math.random())
+
+// 💛 Обновите оператор консоли, чтобы вывести целое число от 0 до 9. Помните, что вы работали с методом в ролевой игре, который округляет число до ближайшего целого числа.
+
+
+function getRandomIndex() {
+  console.log(Math.floor(Math.random() * darkColorsArr.length ))
+}
+getRandomIndex();
