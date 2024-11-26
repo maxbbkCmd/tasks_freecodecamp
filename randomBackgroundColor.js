@@ -44,3 +44,21 @@ const body = document.querySelector("body");
 const bgHexCodeSpanElement = document.querySelector("bg-hex-code");
 
 console.log(bgHexCodeSpanElement);
+
+// 💛CamperBot создал новую переменную bgHexCodeSpanElement для хранения ссылки на элемент span с идентификатором bg-hex-code. Однако при попытке записать эту переменную в консоль возвращается значение null. null — это особое значение в JavaScript, которое представляет отсутствие значения. Это может произойти при попытке доступа к свойству несуществующего объекта. В этом случае CamperBot не передает правильный селектор методу document.querySelector. Исправьте строку document.querySelector("bg-hex-code"), чтобы она правильно выбирала элемент с идентификатором bg-hex-code.
+
+// const body = document.querySelector("body");
+// const bgHexCodeSpanElement = document.querySelector("#bg-hex-code");
+
+// console.log(bgHexCodeSpanElement);
+
+// 💛
+
+
+// 💛
+
+
+// 💛
+
+
+// 💛
