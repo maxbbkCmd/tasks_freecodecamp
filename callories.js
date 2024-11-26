@@ -20,3 +20,8 @@
   <legend>Lunch</legend>
   <div class="input-container"></div>
 </fieldset> */}
+
+{/* <fieldset id="exercise">
+<legend>Exercise</legend>
+<div class="input-container"></div>
+</fieldset> */}
