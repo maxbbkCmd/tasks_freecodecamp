@@ -28,4 +28,6 @@
 
 {/* <div id="output" class="output hide"></div> */ }
 
-{/* <script src="./script.js"></script> */}
+{/* <script src="./script.js"></script> */ }
+
+// const calorieCounter = document.getElementById('calorie-counter');
