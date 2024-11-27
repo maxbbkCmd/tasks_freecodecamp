@@ -31,3 +31,7 @@
 {/* <script src="./script.js"></script> */ }
 
 // const calorieCounter = document.getElementById('calorie-counter');
+
+// function cleanInputString (str) {
+
+// }
